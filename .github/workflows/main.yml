@@ -68,9 +68,9 @@ jobs:
                        +morosound                \
                        +boeffla_wl_blocker       \
                        +boeffla_wl_blocker       \
+                       +dtb                      \
                        +sched_conservative       \
                        +sched_ondemand           \
-                       +dtb                      \
           2>&1 | tee config.info
 
       - name: Install gcc-aarch64-linux-gnu
